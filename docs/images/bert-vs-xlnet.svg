@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="600" viewBox="0 0 1150 600" role="img" aria-label="BERT style versus XLNet style language modelling">
+  <rect width="1150" height="600" fill="#0b1020"/>
+  <text x="575" y="50" text-anchor="middle" font-family="Arial" font-size="32" fill="#ffffff" font-weight="700">BERT-style vs XLNet-style Context Modelling</text>
+  <text x="575" y="82" text-anchor="middle" font-family="Arial" font-size="16" fill="#b7c4d6">Clean conceptual diagram for language-model representation learning</text>
+
+  <rect x="70" y="125" width="470" height="370" rx="24" fill="#13233d" stroke="#7be0ff" stroke-width="3"/>
+  <text x="305" y="165" text-anchor="middle" font-family="Arial" font-size="24" fill="#7be0ff" font-weight="700">BERT-style</text>
+  <text x="305" y="197" text-anchor="middle" font-family="Arial" font-size="15" fill="#b7c4d6">Bidirectional contextual representation</text>
+
+  <g font-family="Arial" font-size="16" fill="#ffffff">
+    <rect x="125" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#7be0ff"/>
+    <text x="160" y="270" text-anchor="middle">T1</text>
+    <rect x="225" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#7be0ff"/>
+    <text x="260" y="270" text-anchor="middle">[MASK]</text>
+    <rect x="325" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#7be0ff"/>
+    <text x="360" y="270" text-anchor="middle">T3</text>
+    <rect x="425" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#7be0ff"/>
+    <text x="460" y="270" text-anchor="middle">T4</text>
+  </g>
+
+  <g stroke="#7be0ff" stroke-width="3" fill="none">
+    <path d="M160 305 C210 355 310 355 360 305"/>
+    <path d="M460 305 C410 355 310 355 260 305"/>
+  </g>
+  <text x="305" y="390" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Uses left and right context to reconstruct masked tokens.</text>
+  <text x="305" y="420" text-anchor="middle" font-family="Arial" font-size="16" fill="#b7c4d6">Useful for semantic representation and fine-tuning.</text>
+
+  <rect x="610" y="125" width="470" height="370" rx="24" fill="#13233d" stroke="#d7b9ff" stroke-width="3"/>
+  <text x="845" y="165" text-anchor="middle" font-family="Arial" font-size="24" fill="#d7b9ff" font-weight="700">XLNet-style</text>
+  <text x="845" y="197" text-anchor="middle" font-family="Arial" font-size="15" fill="#b7c4d6">Permutation-based autoregressive context</text>
+
+  <g font-family="Arial" font-size="16" fill="#ffffff">
+    <rect x="665" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+    <text x="700" y="270" text-anchor="middle">T3</text>
+    <rect x="765" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+    <text x="800" y="270" text-anchor="middle">T1</text>
+    <rect x="865" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+    <text x="900" y="270" text-anchor="middle">T4</text>
+    <rect x="965" y="240" width="70" height="48" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+    <text x="1000" y="270" text-anchor="middle">T2</text>
+  </g>
+
+  <g stroke="#d7b9ff" stroke-width="3" fill="none">
+    <path d="M700 305 C760 360 840 360 900 305"/>
+    <path d="M1000 305 C930 380 785 380 700 305"/>
+  </g>
+  <text x="845" y="390" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Learns context using alternative token orders.</text>
+  <text x="845" y="420" text-anchor="middle" font-family="Arial" font-size="16" fill="#b7c4d6">Useful for rich contextual understanding without simple masking assumptions.</text>
+</svg>
