@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-label="Knowledge driven versus data driven AI">
+  <rect width="1100" height="560" fill="#0b1020"/>
+  <text x="550" y="50" text-anchor="middle" font-family="Arial" font-size="32" fill="#ffffff" font-weight="700">Knowledge-driven vs Data-driven AI</text>
+
+  <rect x="80" y="105" width="430" height="360" rx="22" fill="#13233d" stroke="#90f0c0" stroke-width="3"/>
+  <text x="295" y="145" text-anchor="middle" font-family="Arial" font-size="24" fill="#90f0c0" font-weight="700">Knowledge-driven</text>
+  <text x="120" y="195" font-family="Arial" font-size="17" fill="#ffffff">Core resource: expert knowledge</text>
+  <text x="120" y="235" font-family="Arial" font-size="17" fill="#ffffff">Representation: symbols, rules, triples</text>
+  <text x="120" y="275" font-family="Arial" font-size="17" fill="#ffffff">Mechanism: explicit reasoning</text>
+  <text x="120" y="315" font-family="Arial" font-size="17" fill="#ffffff">Strength: traceability and explanation</text>
+  <text x="120" y="355" font-family="Arial" font-size="17" fill="#ffffff">Risk: manual maintenance and scale</text>
+  <rect x="140" y="395" width="310" height="42" rx="10" fill="#90f0c0"/>
+  <text x="295" y="422" text-anchor="middle" font-family="Arial" font-size="16" fill="#0b1020" font-weight="700">Rules, ontology, knowledge graph</text>
+
+  <rect x="590" y="105" width="430" height="360" rx="22" fill="#13233d" stroke="#ffd27a" stroke-width="3"/>
+  <text x="805" y="145" text-anchor="middle" font-family="Arial" font-size="24" fill="#ffd27a" font-weight="700">Data-driven</text>
+  <text x="630" y="195" font-family="Arial" font-size="17" fill="#ffffff">Core resource: training data</text>
+  <text x="630" y="235" font-family="Arial" font-size="17" fill="#ffffff">Representation: learned parameters</text>
+  <text x="630" y="275" font-family="Arial" font-size="17" fill="#ffffff">Mechanism: optimisation and statistics</text>
+  <text x="630" y="315" font-family="Arial" font-size="17" fill="#ffffff">Strength: pattern learning at scale</text>
+  <text x="630" y="355" font-family="Arial" font-size="17" fill="#ffffff">Risk: data bias and opacity</text>
+  <rect x="650" y="395" width="310" height="42" rx="10" fill="#ffd27a"/>
+  <text x="805" y="422" text-anchor="middle" font-family="Arial" font-size="16" fill="#0b1020" font-weight="700">ML, deep learning, transformers</text>
+
+  <text x="550" y="515" text-anchor="middle" font-family="Arial" font-size="17" fill="#b7c4d6">Modern AI often combines both: data-driven perception with knowledge-driven constraints and explanation.</text>
+</svg>
