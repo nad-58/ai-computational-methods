@@ -17,38 +17,36 @@
   <text x="600" y="276" text-anchor="middle" font-family="Arial" font-size="19" fill="#0b1020" font-weight="700">Data-driven ML</text>
 
   <rect x="795" y="240" width="310" height="58" rx="14" fill="#d7b9ff"/>
-  <text x="950" y="276" text-anchor="middle" font-family="Arial" font-size="19" fill="#0b1020" font-weight="700">Optimisation & Adaptation</text>
+  <text x="950" y="276" text-anchor="middle" font-family="Arial" font-size="19" fill="#0b1020" font-weight="700">Optimisation and Adaptation</text>
 
-  <g font-family="Arial" font-size="16" fill="#ffffff">
-    <rect x="115" y="340" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
-    <text x="250" y="367" text-anchor="middle">Ontology</text>
-    <rect x="115" y="395" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
-    <text x="250" y="422" text-anchor="middle">Knowledge graph</text>
-    <rect x="115" y="450" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
-    <text x="250" y="477" text-anchor="middle">Semantic triples</text>
-    <rect x="115" y="505" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
-    <text x="250" y="532" text-anchor="middle">Logic and reasoning</text>
+  <rect x="115" y="340" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
+  <text x="250" y="367" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Ontology</text>
+  <rect x="115" y="395" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
+  <text x="250" y="422" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Knowledge graph</text>
+  <rect x="115" y="450" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
+  <text x="250" y="477" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Semantic triples</text>
+  <rect x="115" y="505" width="270" height="42" rx="10" fill="#1e2a44" stroke="#b7f5d1"/>
+  <text x="250" y="532" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Logic and reasoning</text>
 
-    <rect x="465" y="340" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
-    <text x="600" y="367" text-anchor="middle">Decision tree / Random forest</text>
-    <rect x="465" y="395" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
-    <text x="600" y="422" text-anchor="middle">Regression and classification</text>
-    <rect x="465" y="450" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
-    <text x="600" y="477" text-anchor="middle">KNN and Naive Bayes</text>
-    <rect x="465" y="505" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
-    <text x="600" y="532" text-anchor="middle">Neural networks</text>
+  <rect x="465" y="340" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
+  <text x="600" y="367" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Decision tree / Random forest</text>
+  <rect x="465" y="395" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
+  <text x="600" y="422" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Regression and classification</text>
+  <rect x="465" y="450" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
+  <text x="600" y="477" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">KNN and Naive Bayes</text>
+  <rect x="465" y="505" width="270" height="42" rx="10" fill="#1e2a44" stroke="#ffe2a8"/>
+  <text x="600" y="532" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Neural networks</text>
 
-    <rect x="815" y="340" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
-    <text x="950" y="367" text-anchor="middle">Transfer learning</text>
-    <rect x="815" y="395" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
-    <text x="950" y="422" text-anchor="middle">Genetic algorithm</text>
-    <rect x="815" y="450" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
-    <text x="950" y="477" text-anchor="middle">Simulated annealing</text>
-    <rect x="815" y="505" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
-    <text x="950" y="532" text-anchor="middle">Swarm intelligence</text>
-  </g>
+  <rect x="815" y="340" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+  <text x="950" y="367" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Transfer learning</text>
+  <rect x="815" y="395" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+  <text x="950" y="422" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Genetic algorithm</text>
+  <rect x="815" y="450" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+  <text x="950" y="477" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Simulated annealing</text>
+  <rect x="815" y="505" width="270" height="42" rx="10" fill="#1e2a44" stroke="#d7b9ff"/>
+  <text x="950" y="532" text-anchor="middle" font-family="Arial" font-size="16" fill="#ffffff">Swarm intelligence</text>
 
   <rect x="150" y="630" width="900" height="70" rx="16" fill="#111a2e" stroke="#69a7ff" stroke-width="2"/>
   <text x="600" y="660" text-anchor="middle" font-family="Arial" font-size="17" fill="#ffffff" font-weight="700">Practical selection principle</text>
-  <text x="600" y="685" text-anchor="middle" font-family="Arial" font-size="15" fill="#b7c4d6">Choose the method family based on knowledge availability, data availability, explainability needs, and computational constraints.</text>
+  <text x="600" y="685" text-anchor="middle" font-family="Arial" font-size="15" fill="#b7c4d6">Choose the method based on knowledge availability, data availability, explainability needs, and computational constraints.</text>
 </svg>
