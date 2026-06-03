@@ -4,7 +4,6 @@ A practical Python-based taxonomy and implementation guide for major computation
 
 This repository explains AI methods from **knowledge-driven symbolic reasoning** to **data-driven machine learning**, **neural-network architectures**, **transfer learning**, and **metaheuristic optimisation**. It is designed as a clean public portfolio project with runnable Python examples.
 
-> This public repository uses original explanations, synthetic examples, and clean diagrams. It does not include organization names, standard numbers, proprietary training slides, copyrighted course material, internal course content, or confidential information.
 
 ## Why this repository exists
 
