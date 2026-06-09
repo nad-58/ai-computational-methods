@@ -2,73 +2,13 @@
 
 A practical Python-based taxonomy and implementation guide for major computational methods used in AI systems.
 
-This repository explains AI methods from **knowledge-driven symbolic reasoning** to **data-driven machine learning**, **neural-network architectures**, **transfer learning**, and **metaheuristic optimisation**. It is designed as a clean public portfolio project with runnable Python examples.
-
-
-## Why this repository exists
-
-AI systems are not all based on neural networks. Some rely on explicit knowledge, logic, rules, ontologies, and knowledge graphs. Others learn from data using statistical learning, traditional machine learning, deep neural networks, or optimisation algorithms.
-
-This repository helps readers understand:
-
-- how AI computational methods can be categorised;
-- the difference between knowledge-driven and data-driven AI;
-- when symbolic reasoning, machine learning, neural networks, transfer learning, or metaheuristics are useful;
-- how each method works through small runnable Python examples;
-- what strengths, limitations, and governance considerations apply to each family of methods.
+The repository covers knowledge-driven reasoning, traditional machine learning, neural-network architectures, transfer learning, and metaheuristic optimisation. It now includes runnable numerical examples, inspectable datasets, intermediate calculations, predictions, metrics, and algorithm data flows.
 
 ## Visual overview
 
 ![AI taxonomy overview](docs/images/ai-taxonomy-overview.svg)
 
-## Repository structure
-
-```text
-ai-computational-methods/
-├── README.md
-├── requirements.txt
-├── requirements-extra.txt
-├── src/ai_computational_approaches/
-│   ├── knowledge.py
-│   ├── logic_reasoning.py
-│   ├── standard_ml.py
-│   ├── neural_networks.py
-│   ├── transfer_learning.py
-│   └── metaheuristics.py
-├── examples/
-│   ├── run_all.py
-│   ├── knowledge_driven_demo.py
-│   ├── logic_reasoning_demo.py
-│   ├── standard_ml_demo.py
-│   ├── neural_network_demo.py
-│   ├── transfer_learning_demo.py
-│   └── metaheuristics_demo.py
-├── docs/
-│   ├── taxonomy.md
-│   ├── knowledge-driven-approaches.md
-│   ├── logic-and-reasoning.md
-│   ├── data-driven-machine-learning.md
-│   ├── neural-network-approaches.md
-│   ├── transfer-learning.md
-│   ├── metaheuristics.md
-│   ├── method-comparison.md
-│   └── images/
-└── tests/
-    └── test_smoke.py
-```
-
-## Method families covered
-
-| Family | Methods included | Python module |
-|---|---|---|
-| Knowledge-driven AI | Ontology, semantic triples, knowledge graph | `knowledge.py` |
-| Logic and reasoning | Deductive reasoning, inductive reasoning, hypothetical reasoning, Bayesian inference | `logic_reasoning.py` |
-| Traditional ML | Decision tree, random forest, linear regression, logistic regression, KNN, Naive Bayes | `standard_ml.py` |
-| Neural networks | Feedforward neural network plus architecture summaries for RNN, LSTM, CNN, GAN, BERT/XLNet-style models | `neural_networks.py` |
-| Transfer learning | Reusable representation plus target classifier | `transfer_learning.py` |
-| Metaheuristics | Genetic algorithm, evolution strategy, simulated annealing, particle swarm optimisation | `metaheuristics.py` |
-
-## Quick start
+## Run every numerical example
 
 ```bash
 git clone https://github.com/nad-58/ai-computational-methods.git
@@ -76,24 +16,60 @@ cd ai-computational-methods
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-PYTHONPATH=src python examples/run_all.py
+PYTHONPATH=src python examples/numerical_all_methods_demo.py
 ```
 
-Run tests:
+Full worked tutorial:
+
+[`docs/numerical-examples.md`](docs/numerical-examples.md)
+
+Run the tests:
 
 ```bash
 PYTHONPATH=src pytest -q
 ```
 
-Optional deep-learning libraries:
+## Numerical coverage
 
-```bash
-pip install -r requirements-extra.txt
+| Family | Numerical methods |
+|---|---|
+| Knowledge-driven AI | Ontology inheritance, instance inference, knowledge-graph query, derived numerical indicator |
+| Logic and reasoning | Modus ponens, modus tollens, transitive inference, induction, hypothesis testing, Bayes rule |
+| Traditional ML | Decision tree, random forest, linear regression, logistic regression, KNN, Gaussian Naive Bayes |
+| Neural networks | Feedforward, RNN, LSTM, CNN, GAN, BERT-style attention, XLNet-style permutation modelling |
+| Transfer learning | Reused standardisation and PCA representation with target classifier |
+| Metaheuristics | Genetic algorithm, evolution strategy, simulated annealing, particle swarm optimisation |
+
+The unified runner reports sample counts, feature dimensions, train/test splits, intermediate values, predictions, metrics, final solutions, and a clear flow description for every method.
+
+## Example datasets
+
+| File | Size | Purpose |
+|---|---:|---|
+| [`data/numerical_classification_dataset.csv`](data/numerical_classification_dataset.csv) | 24 rows, 4 features | Classification |
+| [`data/regression_example.csv`](data/regression_example.csv) | 12 rows, 3 features | Regression |
+| [`data/sequence_example.csv`](data/sequence_example.csv) | 4 time steps | RNN sequence |
+| [`data/image_matrix_example.csv`](data/image_matrix_example.csv) | 4 by 4 matrix | CNN convolution |
+| [`data/token_embeddings_example.csv`](data/token_embeddings_example.csv) | 3 tokens, 2 dimensions | Self-attention |
+
+The runnable examples use fixed random seed `7` for reproducibility.
+
+## Numerical implementation files
+
+```text
+src/ai_computational_approaches/numerical_symbolic.py
+src/ai_computational_approaches/numerical_ml.py
+src/ai_computational_approaches/numerical_neural.py
+src/ai_computational_approaches/numerical_transfer_optimisation.py
+examples/numerical_all_methods_demo.py
+tests/test_numerical_examples.py
+docs/numerical-examples.md
 ```
 
-## Example commands
+## Existing example commands
 
 ```bash
+PYTHONPATH=src python examples/run_all.py
 PYTHONPATH=src python examples/knowledge_driven_demo.py
 PYTHONPATH=src python examples/logic_reasoning_demo.py
 PYTHONPATH=src python examples/standard_ml_demo.py
@@ -104,20 +80,14 @@ PYTHONPATH=src python examples/metaheuristics_demo.py
 
 ## Diagrams
 
-The repository includes clean, original SVG diagrams:
-
 | Diagram | Purpose |
 |---|---|
 | [`docs/images/ai-taxonomy-overview.svg`](docs/images/ai-taxonomy-overview.svg) | Overall method taxonomy |
-| [`docs/images/knowledge-vs-data-driven.svg`](docs/images/knowledge-vs-data-driven.svg) | Knowledge-driven vs data-driven AI |
-| [`docs/images/neural-network-family.svg`](docs/images/neural-network-family.svg) | FFNN, RNN, LSTM, CNN, GAN, BERT/XLNet-style families |
-| [`docs/images/bert-vs-xlnet.svg`](docs/images/bert-vs-xlnet.svg) | Conceptual comparison of BERT-style and XLNet-style contextual language modelling |
+| [`docs/images/knowledge-vs-data-driven.svg`](docs/images/knowledge-vs-data-driven.svg) | Knowledge-driven versus data-driven AI |
+| [`docs/images/neural-network-family.svg`](docs/images/neural-network-family.svg) | Neural-network families |
+| [`docs/images/bert-vs-xlnet.svg`](docs/images/bert-vs-xlnet.svg) | Contextual language-model comparison |
 | [`docs/images/genetic-algorithm-cycle.svg`](docs/images/genetic-algorithm-cycle.svg) | Metaheuristic optimisation cycle |
-
-## Professional positioning
-
-This repository demonstrates broad AI literacy across symbolic AI, traditional machine learning, neural networks, transfer learning, and optimisation. It is useful for AI engineering, AI governance, model evaluation, technical assurance, and educational portfolios.
 
 ## Disclaimer
 
-This is an educational and professional portfolio repository. The examples are simplified and synthetic. Production AI systems require domain-specific validation, data governance, robustness testing, monitoring, security review, privacy assessment, and responsible AI governance.
+This is an educational and professional portfolio repository. The examples are simplified and synthetic. Production AI systems require representative data, independent validation, robustness testing, monitoring, security review, privacy assessment, and responsible AI governance.
