@@ -19,7 +19,7 @@ Examples:
 
 ### Data-driven methods
 
-Data-driven AI learns from data. This includes traditional machine learning, deep learning, transfer learning, and optimisation-based methods.
+Data-driven AI learns from data. This includes traditional machine learning, deep learning, transfer learning, foundation models, and optimisation-based methods.
 
 Examples:
 
@@ -31,6 +31,23 @@ Examples:
 - Neural networks
 - Transformers
 - Transfer learning
+- Large language models
+- Large vision models
+- Vision-language models
+- Vision-language-action models
+
+## Foundation-model families
+
+Large model families should be classified by their inputs, outputs, and operational role rather than by parameter count alone.
+
+| Family | Inputs | Outputs | Main role |
+|---|---|---|---|
+| LLM | text or tokens | text, code, structured tokens | language modelling |
+| Large vision model | image or video | visual features, labels, boxes, masks | perception and representation |
+| VLM | image/video plus text | captions, answers, retrieval scores, grounding | cross-modal understanding |
+| VLA | vision, language, state/history | actions, trajectories, policies | embodied control |
+
+See [`llm-large-vision-vlm-vla.md`](llm-large-vision-vlm-vla.md) for the detailed taxonomy and terminology notes.
 
 ## Purpose-based categories
 
@@ -44,8 +61,10 @@ AI computational methods can also be grouped by purpose:
 | Learning from examples | supervised learning, classification, regression |
 | Unsupervised discovery | clustering, dimensionality reduction |
 | Sequential modelling | RNN, LSTM, transformer-style models |
-| Perception | CNN, image recognition, feature extraction |
-| Generative modelling | GAN, generative neural networks |
+| Perception | CNN, vision transformer, image recognition, feature extraction |
+| Cross-modal understanding | CLIP-style alignment, captioning, VQA, grounding |
+| Embodied decision and control | action policies, robot trajectories, VLA systems |
+| Generative modelling | GAN, diffusion, language generation, multimodal generation |
 
 ## Computational characteristics
 
@@ -55,6 +74,8 @@ AI computational methods can also be grouped by purpose:
 | Infrastructure-based | Hardware and platform requirements such as CPU, GPU, cloud, or edge |
 | Algorithm-dependent | Loss functions, learning criteria, and optimisation behaviour |
 | Multi-step or end-to-end | Whether the system uses modular stages or learns direct input-output mapping |
+| Modality boundary | Whether the system operates on language, vision, multimodal data, or actions |
+| Action consequence | Whether outputs remain informational or directly affect software or physical environments |
 
 ## Related code
 
